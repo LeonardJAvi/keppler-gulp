@@ -1,0 +1,28 @@
+{
+  "name": "Keppler Gulp",
+  "version": "1.0.0",
+  "description": "Automation for loading themes to Keppler Admin",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonardJAvi"
+  },
+  "author": "Leonard J. Ávila S.",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "3.9.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.2.0",
+    "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "gulp-ignore": "^2.0.2",
+    "gulp-ruby-haml": "0.0.9"
+  }
+}
