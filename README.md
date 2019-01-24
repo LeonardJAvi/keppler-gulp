@@ -2,7 +2,7 @@
 
 Environment to generate themes in Kepler Admin from Gulp
 
-Environment directory
+### Environment directory
 
 ```
 ├── src
