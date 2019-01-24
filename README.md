@@ -31,10 +31,10 @@ Environment to generate themes in Kepler Admin from Gulp
 | | ├── views
 ```
 
-## Authors
+### Authors
 
 - **Leonard J. Ávila S** - (https://github.com/LeonardJAvi)
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
