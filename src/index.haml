@@ -1,9 +1,28 @@
 !!!
 %html{lang: "en"}
 	%head
-		= Haml::Engine.new(File.read('src/partials/_head.haml')).render
-	%body
+		-# inject:css
+		-# endinject
+	%body#keppler-editor
+		%keppler-header
 		= Haml::Engine.new(File.read('src/partials/_header.haml')).render
-		= Haml::Engine.new(File.read('src/partials/_index.haml')).render
+		.separator{style:"padding: 15px 0;"}
+		.container
+			.carrusel-product
+				.product
+					.product__item
+						%img{src:"assets/img/01.jpg", class:"img-fluid"}
+					.product__item
+						%img{src:"assets/img/02.jpg", class:"img-fluid"}
+					.product__item
+						%img{src:"assets/img/01.jpg", class:"img-fluid"}
+					.product__item
+						%img{src:"assets/img/02.jpg", class:"img-fluid"}
+					.product__item
+						%img{src:"assets/img/01.jpg", class:"img-fluid"}
+					.product__item
+						%img{src:"assets/img/02.jpg", class:"img-fluid"}
 		= Haml::Engine.new(File.read('src/partials/_footer.haml')).render
-		= Haml::Engine.new(File.read('src/partials/_scripts.haml')).render
+		-# inject:js
+		-# endinject
+		%keppler-footer

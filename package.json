@@ -16,12 +16,15 @@
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "3.9.1",
+    "gulp-inject": "^5.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-util": "^3.0.8",
+    "gulp-vinyl-zip": "^2.1.1",
     "gulp-zip": "^4.2.0",
     "node-sass": "^4.10.0"
   },
   "dependencies": {
+    "gulp-html-beautify": "^1.0.1",
     "gulp-ignore": "^2.0.2",
     "gulp-ruby-haml": "0.0.9"
   }
